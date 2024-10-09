@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+          margin: 0;
+          padding: 0;
+}
+
+body{
+          font-family: "Azeret Mono", monospace;
+          font-optical-sizing: auto;
+}
+
+/* .navbar{
+          width: 1340px;
+          height: 60px;
+          margin: 0 auto;
+          border: 2px solid red;
+          margin-bottom: 10px;    
+}
+.navbar .nav-content{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+}
+
+.navbar-name{
+          display: flex;
+          flex-direction: column;
+          justify-content:space-around; 
+          margin: 0 auto;
+} */
+
+.banner{
+          width: 1340px;
+          height: 630px;
+          margin: 0 auto;
+          background-image:url("../assets/Hero-bg.png") ;
+}
+.banner-content{
+          width: 898px;
+          height: 561px;
+          margin: 0 auto;
+          margin-top: 26px;
+}
+.banner-container{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+}
+.banner-container img{
+    margin-bottom: 40px;
+}
+.banner-container h1{
+          color: rgb(13, 19, 33);
+          font-family: Azeret Mono;
+          font-size: 28px;
+          font-weight: 800;
+          line-height: 50px;
+          text-align: center;
+          margin-bottom: 24px;
+ }
+ .banner-container p{
+          color: rgb(13, 19, 33);
+          font-family: Azeret Mono;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 20px;
+          opacity: 0.7;
+          text-align: center;
+          margin-bottom: 32px;
+ }
+
+ .banner-container button{
+          width: 200px;
+          height: 55px;
+          border-radius: 8px;
+          background: rgb(13, 19, 33);
+          
+ }
+#color{
+          color: rgb(255, 255, 255);
+          font-family: Azeret Mono;
+          font-size: 13px;
+          font-weight: 600;
+          line-height: 23px
+}
